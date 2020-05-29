@@ -6,7 +6,7 @@ Develop a model for controlling access of several parallel processes to one file
 ## Program
 The program is written in Scala.
 
-![](images/main%20window.png)
+<img src="images/main%20window.png" width="600" height="453" />
 
 ## Conclusion
 The results are presented in the form of dependencies of the number of characters read by each of the reading processes on the priority of the writing process.
