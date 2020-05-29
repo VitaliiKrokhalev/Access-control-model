@@ -11,4 +11,4 @@ The program is written in Scala.
 ## Conclusion
 The results are presented in the form of dependencies of the number of characters read by each of the reading processes on the priority of the writing process.
 
-![](images/main window.png)
+![](images/plot.png)
