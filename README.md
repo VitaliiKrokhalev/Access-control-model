@@ -10,5 +10,6 @@ The program is written in Scala.
 
 ## Conclusion
 The results are presented in the form of dependencies of the number of characters read by each of the reading processes on the priority of the writing process.
+With an increase in read priority, the number of characters read increases.
 
 ![](images/plot.png)
