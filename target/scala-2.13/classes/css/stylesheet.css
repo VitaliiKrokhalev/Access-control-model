@@ -1,0 +1,205 @@
+.root {
+    -fx-font-family: Roboto-Medium;
+    -fx-font-size: 14;
+    -fx-font-weight: normal;
+    -fx-font-smoothing-type: gray;
+    -fx-text-alignment: center;
+}
+
+.combo-box-base {
+    -fx-background-color: white;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 4;
+    -fx-border-color: #3F51B5;
+    -fx-border-radius: 4;
+    -fx-border-width: 2;
+    -fx-font-family: Roboto-Medium;
+    -fx-max-width: 220;
+    -fx-min-width: 220;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-view {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+    -fx-font-family: Roboto-Medium;
+    -fx-font-size: 14;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-background-color: #9FA8DA;
+    -fx-cursor:hand;
+}
+
+.combo-box .list-view .list-cell:focused {
+    -fx-background-color: #9FA8DA;
+    -fx-text-fill: black;
+}
+
+.browse-btn {
+    -fx-background-color: #3F51B5;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+    -fx-font-family: Roboto Medium;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-max-width: 120;
+    -fx-min-width: 120;
+    -fx-max-height: 40;
+    -fx-min-height: 40;
+    -fx-text-fill: white;
+}
+
+.browse-btn:hover {
+    -fx-cursor:hand;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
+}
+
+.browse-btn:pressed {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 16, 0, 0, 3);
+}
+
+.start-btn {
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+    -fx-font-family: Roboto Medium;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-max-width: 120;
+    -fx-min-width: 120;
+    -fx-max-height: 40;
+    -fx-min-height: 40;
+    -fx-text-fill: white;
+}
+
+.start-btn:hover {
+    -fx-cursor:hand;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
+}
+
+.start-btn:pressed {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 16, 0, 0, 3);
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: black;
+}
+
+.text-field:focused {
+    -fx-background-color: #3F51B5, -fx-background;
+}
+
+.progress-bar {
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-color,30%) 5%, derive(-fx-color,-17%));
+    -fx-background-insets: 0, 1;
+    -fx-indeterminate-bar-length: 60;
+    -fx-indeterminate-bar-escape: true;
+    -fx-indeterminate-bar-flip: true;
+    -fx-indeterminate-bar-animation-time: 2;
+  -fx-pref-width: 200;
+}
+
+.progress-bar .bar {
+    -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-accent,95%), derive(-fx-accent,10%)),
+        linear-gradient(to bottom, derive(-fx-accent,38%), -fx-accent);
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 5;
+}
+
+.progress-bar:indeterminate .bar {
+    -fx-background-color: linear-gradient(to left, transparent, -fx-accent);
+}
+
+.progress-bar .track {
+     -fx-background-color:
+        -fx-box-border,
+        linear-gradient(to bottom, derive(-fx-color,-15%), derive(-fx-color,2.2%) 20%, derive(-fx-color,60%));
+    -fx-background-insets:  0, 1;
+}
+
+.progress-bar:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.dialog-pane .button{
+    -fx-background-color: #f44336;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+    -fx-font-family: Roboto Medium;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-max-width: 90;
+    -fx-min-width: 90;
+    -fx-max-height: 35;
+    -fx-min-height: 35;
+    -fx-text-fill: white;
+ }
+
+.dialog-pane .button:hover {
+    -fx-cursor:hand;
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
+}
+
+.dialog-pane .:pressed {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 16, 0, 0, 3);
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.chart {
+    -fx-padding: 10;
+}
+.chart-content {
+    -fx-padding: 20;
+}
+
+.chart-legend {
+   -fx-padding: 10;
+}
+
+.chart-legend-item-symbol{
+   -fx-background-radius: 10;
+   -fx-padding: 5 5 5 5;
+}
+
+.default-color0.chart-series-line {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
+    -fx-stroke: #3333FF;
+    -fx-stroke-width: 1;
+}
+
+.default-color1.chart-series-line {
+    -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
+    -fx-stroke: #FF0000;
+    -fx-stroke-width: 1;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: #3333FF, white;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: #FF0000, white;
+}
+
+.chart-line-symbol {
+    -fx-padding: 2 2 2 2;
+}
