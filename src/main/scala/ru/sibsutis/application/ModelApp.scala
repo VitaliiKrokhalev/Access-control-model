@@ -63,7 +63,7 @@ object ModelApp extends JFXApp {
 
   private val xAxis = new NumberAxis("Priority", 0.0d, 100.0d, 10.0d)
 
-  private val yAxis = new NumberAxis("Count", 0.0d, 26.0d, 2.0d)
+  private val yAxis = new NumberAxis("Number of characters read", 0.0d, 26.0d, 2.0d)
 
   private val series1 = new XYChart.Series[Number, Number]() {
     name = "Reader 1"
