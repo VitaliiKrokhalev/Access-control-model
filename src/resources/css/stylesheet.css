@@ -103,7 +103,7 @@
     -fx-indeterminate-bar-escape: true;
     -fx-indeterminate-bar-flip: true;
     -fx-indeterminate-bar-animation-time: 2;
-  -fx-pref-width: 200;
+    -fx-pref-width: 200;
 }
 
 .progress-bar .bar {
@@ -146,7 +146,7 @@
  }
 
 .dialog-pane .button:hover {
-    -fx-cursor:hand;
+    -fx-cursor: hand;
     -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.3), 7, 0, 0, 2);
 }
 
@@ -176,8 +176,8 @@
 }
 
 .chart-legend-item-symbol{
-   -fx-background-radius: 10;
-   -fx-padding: 5 5 5 5;
+    -fx-background-radius: 10;
+    -fx-padding: 5 5 5 5;
 }
 
 .default-color0.chart-series-line {
