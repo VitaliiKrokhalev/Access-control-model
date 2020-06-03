@@ -83,7 +83,7 @@
     -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 16, 0, 0, 3);
 }
 
-.dialog-pane .button{
+.dialog-pane .button {
     -fx-background-color: #F44336;
     -fx-background-radius: 4;
     -fx-background-insets: 0;
