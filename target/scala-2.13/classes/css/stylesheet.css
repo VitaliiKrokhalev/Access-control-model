@@ -83,17 +83,6 @@
     -fx-effect: dropShadow(three-pass-box , rgba(0, 0, 0, 0.4), 16, 0, 0, 3);
 }
 
-.text-field {
-    -fx-background-color: -fx-text-box-border, -fx-background;
-    -fx-background-insets: 0, 0 0 1 0;
-    -fx-background-radius: 0;
-    -fx-text-fill: black;
-}
-
-.text-field:focused {
-    -fx-background-color: #3F51B5, -fx-background;
-}
-
 .progress-bar {
     -fx-background-color:
         -fx-box-border,
